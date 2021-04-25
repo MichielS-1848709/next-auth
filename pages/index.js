@@ -8,7 +8,7 @@ import { useEffect, useState } from 'react'
 
 // Get the actual API_URL as an environment variable. For real
 // applications, you might want to get it from 'next/config' instead.
-const API_URL = process.env.API_URL
+const API_URL = 'http://localhost:3000/api'
 
 // The following getInitialProps function demonstrates how to make
 // API requests from the server. We basically take the auth-token cookie
